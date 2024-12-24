@@ -1,0 +1,48 @@
+h1{
+text-align: center;
+font-size: 5rem;
+}
+body {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+  }
+  .main{
+    flex: 1;
+  }
+img{
+    float: left;
+    margin: 15px;
+}
+.Bikes{
+    width:47%
+}
+.left{
+    float: left;
+}
+.right{
+    float:right;
+}
+p{
+    text-align: justify;
+}
+@media (max-width:600px){
+    h1{
+        text-align: center;
+        font-size: 3.5rem;
+    }
+    .Bikes{
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+
+    }
+    .Bikes img{
+        display:inline;
+        width:100%;
+        margin-bottom:10px;
+        object-fit: cover;
+    }
+}
